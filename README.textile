@@ -1,6 +1,6 @@
-h1. Fish nuggets
+h1. Fish in water
 
-The fish nuggets project contains various completions and functions for the amazing "Fish shell":http://www.fish-shell.org.
+The fish in water project contains various completions and functions for the amazing "Fish shell":http://www.fish-shell.org which can be used a library, which means you can use it and then override them with your own functions, and you can have your own dotfiles repo because fish-inwater is not checked out as ~/.config/fish, rather it uses it's own dir (see Installation).
 
 h2. Git features
 
