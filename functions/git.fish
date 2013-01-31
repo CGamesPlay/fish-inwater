@@ -1,3 +1,5 @@
-function git
-	hub $argv; 
+if which hub > /dev/null
+  function git
+    hub $argv;
+  end
 end
