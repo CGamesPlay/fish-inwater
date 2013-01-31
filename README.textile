@@ -22,14 +22,26 @@ h2. Rubygems features
 
 h2.  Installation
 
-  cd ~/.config/fish
-  git init
-  git add .
-  git remote add github git://github.com/eventualbuddha/fish-nuggets.git
-  git pull github master
+    cd ~/.config/fish
+    git clone github git://github.com/rubycut/fish-inwater.git
 
-Go into ~/.config/fish and add this repository, then pull. This will add the scripts in this projects for you to use.
+Add this to your .config/fish/config.fish file:
+
+    $fish_complete_path
+    $fish_function_path
+    # ? bin
+
+This will allow you to use your own dotfiles repo (if you have one) and fish-inwater is considered like library.
+
+h2. FAQ
+
+Why you renamed repository from fish-nuggets to fish-inwater?
+
+Because I am vegetarian.
 
 h2.  Credits
 
-Thanks to Lachie Cox for the initial rvm scripts (http://github.com/lachie/dotfiles).
+Thanks to:
+
+* Lachie Cox for the initial rvm scripts (http://github.com/lachie/dotfiles).
+* Pedro Nascimento for fish-nuggets (https://github.com/lunks/fish-nuggets)
