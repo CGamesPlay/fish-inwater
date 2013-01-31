@@ -27,9 +27,9 @@ h2.  Installation
 
 Add this to your .config/fish/config.fish file:
 
-    $fish_complete_path
-    $fish_function_path
-    # ? bin
+    set -g fish_complete_path  $fish_complete_path ~/.config/fish/fish-inwater/completions
+    set -g fish_function_path  $fish_function_path ~/.config/fish/fish-inwater/functions
+    set -gx PATH $PATH  ~/.config/fish/fish-inwater/bin
 
 This will allow you to use your own dotfiles repo (if you have one) and fish-inwater is considered like library.
 
