@@ -28,7 +28,7 @@ h2.  Installation
 Add this to your .config/fish/config.fish file:
 
     set -g fish_complete_path  $fish_complete_path ~/.config/fish/fish-inwater/completions
-    set -g fish_function_path  $fish_function_path ~/.config/fish/fish-inwater/functions
+    set -g fish_function_path  ~/.config/fish/fish-inwater/functions $fish_function_path
     set -gx PATH $PATH  ~/.config/fish/fish-inwater/bin
     # this is optional
     set -g fish_function_path  $fish_function_path ~/.config/fish/fish-inwater/shortcuts
