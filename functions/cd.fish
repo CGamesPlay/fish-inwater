@@ -12,7 +12,8 @@ function cd --description "Change working directory"
         break
       else
         if begin ; test -s ".rvmrc" ; or test -s ".versions.conf" ; end
-          echo "Reloading RVM."
+          # less doesn't work if this is not commented
+          #echo "Reloading RVM."
           rvm reload 1>/dev/null 2>&1
           break
         else
